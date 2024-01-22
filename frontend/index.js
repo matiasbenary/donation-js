@@ -8,7 +8,7 @@ const CONTRACT_NAME = "donation.near-examples.testnet"
 const wallet = new Wallet({ createAccessKeyFor: CONTRACT_NAME })
 
 // Abstract the logic of interacting with the contract to simplify your project
-const contract = new Contract({ contractId: process.env.CONTRACT_NAME, walletToUse: wallet });
+const contract = new Contract({ contractId: CONTRACT_NAME, walletToUse: wallet });
 
 // Setup on page load
 window.onload = async () => {

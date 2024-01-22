@@ -1,14 +1,10 @@
 # Rust
-contract-rs/target/
-contract-rs/Cargo.lock
+./contract-rs/target/
+./contract-rs/Cargo.lock
 
 # TypeScript - Sandbox
 ./contract-ts/sandbox-ts/package-lock.json
-./contract-ts/sandbox-ts/yarn.lock
 ./contract-ts/sandbox-ts/node_modules/
-
-# Cargo files
-contract-rs/.cargo/
 
 # TypeScript
 ./contract-ts/build/
